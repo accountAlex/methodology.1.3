@@ -1,5 +1,5 @@
 import readlineSync from 'readline-sync';
-import { getRandomNumber } from '../utils.js';
+import getRandomNumber from '../utils.js';
 
 const gcd = (a, b) => (b === 0 ? a : gcd(b, a % b));
 
